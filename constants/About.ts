@@ -7,7 +7,7 @@ export interface AboutAppItem {
   externalTitle?: string;
 }
 
-const ABOUT_APP : AboutAppItem[] = [
+const ABOUT_APP: AboutAppItem[] = [
   {
     title: "Privacy First",
     detail: "Your contacts are stored only on your device. We never share or upload them to any server.",
@@ -23,13 +23,13 @@ const ABOUT_APP : AboutAppItem[] = [
   {
     title: "Open Source",
     detail: "This project is open source. You can review the code and contribute to improvements.",
-    externalLink: "https://github.com/your-repo", // 🔗 replace with your repo link
+    externalLink: "https://github.com/rigial/keepmycontacts",
     externalTitle: "View on GitHub",
   },
   {
     title: "Terms & Conditions",
     detail: "By using this app, you agree that you are responsible for managing and safeguarding your backup files.",
-    externalLink: "https://your-terms-link.com", // 🔗 replace with your terms page
+    externalLink: "https://your-terms-link.com",
     externalTitle: "Read Terms",
   },
 ];
